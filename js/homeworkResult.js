@@ -37,9 +37,6 @@ async function loadResult() {
     cardBody.classList.add('card-body');
     resultList.classList.add('d-flex');
 
-    // console.log(resultResponse);
-    // console.log(resultResponse.rightAnswers)
-
     resultListItemRightParagraph.classList.add('card-text');
     resultListItemWrongParagraph.classList.add('card-text');
 

@@ -13,59 +13,6 @@ li a {
     top: 0;
 }
 
-/* #homework-submit { 
-    top: 900px;
-    position: relative;
-    margin: 20% 0px 130% 20px;
-    height: 200px;
-    font-size: 58px;
-} */
-
-/* #question-list {
-    position: relative;
-    height: 1800px;
-    width: 95%;
-    background-color: white;
-    padding: 20px;
-    margin: auto;
-    top: 100px;
-} */
-
-/* .question {
-    margin-top: 100px;
-    position: relative;
-}
-
-.question a {
-    color: black;
-    font-size: 58px;
-    font-family: Roboto;
-} */
-
-/* .answer {
-    position: relative;
-    height: 200px;
-    width: 95%;
-    background-color: #f3f3f3;
-    padding: 20px;
-    padding-top: 50px;
-    margin: auto;
-    top: 50px;
-    margin-bottom: 40px;
-    border-radius: 30px;
-    border: 7px solid #e5e5e5;
-    text-align: center;
-} */
-
-/* .answer a {
-    position: relative;
-    color: black;
-    font-size: 58px;
-    margin: auto;
-    text-align: center;
-    font-family: Roboto;
-} */
-
 .answerfield {
     position: relative;
     width: 95%;
@@ -166,6 +113,7 @@ input:focus {
 }
 
 #homework-list li a {
+    text-decoration: none;
     position: relative; 
     font-family: Roboto; 
     font-size: 55px; 
@@ -192,55 +140,4 @@ input:focus {
     left: 10px; 
     color: #959595; 
     font-weight: 700;
-}
-
-#ranking {
-    position: relative;
-    width: 90%;
-    top: 200px;
-    padding: 0px;
-    margin: auto;
-}
-
-#ranking li {
-    position: relative;
-    font-family: Roboto;
-    font-size: 50px;
-    border: 8px solid #e5e5e5;
-    display: block;
-    padding: 45px;
-    border-radius: 50px;
-    margin-bottom: 50px;
-    font-weight: 700;
-    color: rgb(100, 100, 100);
-}
-
-#ranking li a {
-    position: relative; 
-    font-family: Roboto; 
-    font-size: 50px; 
-    top: 10px; 
-    left: 10px;
-    color: #959595; 
-    font-weight: 700;
-}
-
-#colocacao {
-    font-size: 42px;
-    float: left;
-}
-
-#usuario {
-    position: relative;
-    font-family: Roboto;
-    font-size: 50px;
-    font-weight: 700;
-    color: rgb(100, 100, 100);
-}
-
-#rank {
-    position: relative;
-    width: auto;
-    float: right;
-    right: 20px;
 }
