@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SideSchool</title>
+        <meta charset="uft-8" />
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+        <script src="js/bootstrap/bootstrap.js"></script>
+    </head>
+</html>
+<body>
+    <nav class="navbar navbar-light bg-primary" style="height: 150px;">
+        <span class="navbar-brand mb-0 h1" style="font-family: Roboto; font-size: 82px; color: #959595;">Login</span>
+    </nav>
+    
+    <form class="answerfield" style="top: 600px;">
+        <label for="flogin">ID de Usuário:</label>
+        <input type="text" id="flogin" name="flogin">
+        <input onclick="saveStudentSessionStorage()" id="entrar" type="submit" value="Entrar">
+    </form>
+
+    <script>
+        function saveStudentSessionStorage() {
+            event.preventDefault()
+            flogin = document.getElementById('flogin')
+            sessionStorage.setItem("studentId",  flogin.value);
+            window.location = 'home_estudante.html'; return false;
+        }
+    </script>
+</body>

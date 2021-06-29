@@ -1,0 +1,25 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.card-body ul li p {
+    font-size: 100px;
+    border: 0px solid rgb(184, 184, 184);
+    transition: ease .5s;
+}
+
+.card-body ul {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-body ul li {
+    width: 100%;
+    list-style: none;
+}
+
+#main-content {
+    width: 100%;
+}
