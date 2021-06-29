@@ -5,9 +5,10 @@ div {
 }
 
 .card-body ul li p {
-    font-size: 100px;
+    font-size: 80px;
     border: 0px solid rgb(184, 184, 184);
     transition: ease .5s;
+    color: #959595;
 }
 
 .card-body ul {
@@ -21,5 +22,6 @@ div {
 }
 
 #main-content {
+    padding: 40px;
     width: 100%;
 }

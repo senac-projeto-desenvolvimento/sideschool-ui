@@ -5,6 +5,8 @@
         <title>SideSchool</title>
         <meta charset="uft-8" />
         <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/ranking.css"/>
+        <link rel="stylesheet" href="css/spinner.css"/>
         <link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
         <script src="js/bootstrap/bootstrap.js"></script>
         <script src="js/ranking.js"></script>
@@ -12,16 +14,16 @@
     </head>
 </html>
 <body>
-    <nav class="navbar navbar-light bg-primary" style="height: 150px;">
+    <nav id="header" class="navbar navbar-light bg-primary" style="height: 150px;">
         <span class="navbar-brand mb-0 h1" style="font-family: Roboto; font-size: 82px; color: #959595;">Ranking</span>
         <ul id="pontos">
             <li><img src="images/gem.png" alt="Moeda" width="70" height="70">
-                <a id="points">
+                <a id="coins">
                     <div class="spinner-border" style="width: 5rem; height: 5rem; align-items: center;" role="status"></div>
                 </a>
             </li>
             <li><img src="images/crown.png" alt="Pontos" width="70" height="70">
-                <a id="coins">
+                <a id="points">
                     <div class="spinner-border" style="width: 5rem; height: 5rem; align-items: center;" role="status"></div>
                 </a>
             </li>
@@ -29,18 +31,9 @@
     </nav>
 
     <ul id="ranking">
-        <li><h1 id="colocacao">1º</h1><a id="usuario">Antonio Tietz</a><div id="rank"><img src="images/crown.png" alt="Pontos" width="70" height="70"><a>300</a></div></li>
-        <li>Lucas Lacerda</li>
-        <li>Francis Fontoura</li>
-        <li>Gilberto Watrowski</li>
-        <li>Antonio Tietz</li>
-        <li>Lucas Lacerda</li>
-        <li>Francis Fontoura</li>
-        <li>Gilberto Watrowski</li>
-        <li>Antonio Tietz</li>
-        <li>Lucas Lacerda</li>
-        <li>Francis Fontoura</li>
-        <li>Gilberto Watrowski</li>
+        <div id="loading-spinner" class="d-flex justify-content-center show-loading">
+            <div class="spinner-border" style="width: 5rem; height: 5rem; align-items: center;" role="status"></div>
+        </div>
     </ul>
     
     <nav class="navbar-bottom">
@@ -51,8 +44,8 @@
             <li><a href="perfil.html"><img src="images/definicoes.png" alt="Configurações" width="100" height="100"></a></li>
         </ul>
     </nav>
-
     <script>
+        loadRanking();
         loadStudentPoints();
     </script>
 </body>

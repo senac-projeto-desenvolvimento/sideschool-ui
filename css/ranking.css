@@ -1,0 +1,53 @@
+#ranking {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px;
+    margin: 200px 0px 0px 0px;
+}
+
+.ranking-list-item {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    font-family: Roboto;
+    font-size: 50px;
+    border: 8px solid #e5e5e5;
+    padding: 45px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: rgb(100, 100, 100);
+    justify-content: space-between;
+
+}
+
+.ranking-list-item-student {
+    display: flex;
+    align-items: center;
+}
+
+.ranking-list-item-student a {
+    margin-right: 20px;
+}
+
+.ranking-list-item-points {
+    display: flex;
+}
+
+.ranking-list-item-points img {
+    margin-right: 20px;
+}
+
+#ranking li div a {
+    font-family: Roboto; 
+    font-size: 50px; 
+    color: #959595; 
+    font-weight: 700;
+}
+
+.ranking-list-item-points img {
+    width: 70px;
+    height: 70px;
+    content: url("../images/crown.png");
+}
