@@ -10,11 +10,13 @@
     </head>
 </html>
 <body>
-    <nav class="navbar navbar-light bg-primary" style="height: 150px;">
+    <nav id="header" class="navbar navbar-light bg-primary" style="height: 150px;">
         <span class="navbar-brand mb-0 h1" style="font-family: Roboto; font-size: 82px; color: #959595;">Login</span>
     </nav>
-    
-    <form class="answerfield" style="top: 600px;">
+    <div id="logo">
+        <div id="logo-image"></div>
+    </div>
+    <form class="answerfield" style="top: 0px;">
         <label for="flogin">ID de Usuário:</label>
         <input type="text" id="flogin" name="flogin">
         <input onclick="saveStudentSessionStorage()" id="entrar" type="submit" value="Entrar">
