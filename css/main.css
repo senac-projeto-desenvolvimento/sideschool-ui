@@ -13,6 +13,24 @@ li a {
     top: 0;
 }
 
+#logo {
+    width: 100%;
+    height: 100%;
+    margin: 400px 0px 0px 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#logo-image {
+    width: 250px;
+    height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/cubo-magico-sideschool.png');
+}
+
 .answerfield {
     position: relative;
     width: 95%;
@@ -113,7 +131,6 @@ input:focus {
 }
 
 #homework-list li a {
-    text-decoration: none;
     position: relative; 
     font-family: Roboto; 
     font-size: 55px; 
@@ -140,4 +157,55 @@ input:focus {
     left: 10px; 
     color: #959595; 
     font-weight: 700;
+}
+
+#ranking {
+    position: relative;
+    width: 90%;
+    top: 200px;
+    padding: 0px;
+    margin: auto;
+}
+
+#ranking li {
+    position: relative;
+    font-family: Roboto;
+    font-size: 50px;
+    border: 8px solid #e5e5e5;
+    display: block;
+    padding: 45px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: rgb(100, 100, 100);
+}
+
+#ranking li a {
+    position: relative; 
+    font-family: Roboto; 
+    font-size: 50px; 
+    top: 10px; 
+    left: 10px;
+    color: #959595; 
+    font-weight: 700;
+}
+
+#colocacao {
+    font-size: 42px;
+    float: left;
+}
+
+#usuario {
+    position: relative;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(100, 100, 100);
+}
+
+#rank {
+    position: relative;
+    width: auto;
+    float: right;
+    right: 20px;
 }
