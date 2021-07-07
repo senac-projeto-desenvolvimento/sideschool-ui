@@ -159,37 +159,6 @@ input:focus {
     font-weight: 700;
 }
 
-#ranking {
-    position: relative;
-    width: 90%;
-    top: 200px;
-    padding: 0px;
-    margin: auto;
-}
-
-#ranking li {
-    position: relative;
-    font-family: Roboto;
-    font-size: 50px;
-    border: 8px solid #e5e5e5;
-    display: block;
-    padding: 45px;
-    border-radius: 50px;
-    margin-bottom: 50px;
-    font-weight: 700;
-    color: rgb(100, 100, 100);
-}
-
-#ranking li a {
-    position: relative; 
-    font-family: Roboto; 
-    font-size: 50px; 
-    top: 10px; 
-    left: 10px;
-    color: #959595; 
-    font-weight: 700;
-}
-
 #colocacao {
     font-size: 42px;
     float: left;
